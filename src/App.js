@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     // Tu URL real de Render que probamos antes
-    fetch('https://onrender.com')
+    fetch('https://mi-backend-node-x0l9.onrender.com/api/productos')
       .then((response) => response.json())
       .then((data) => {
         setProductos(data);
